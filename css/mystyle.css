@@ -176,7 +176,7 @@ section .left_content {
 	margin-left: 20px;
     width: 205px;
     height: 164px;
-    line-height: 160px;
+    line-height: 165px;
     font-size: 22px;
     font-weight: normal;
     color: #8d8c8c;
@@ -256,21 +256,17 @@ aside.white_space {
 
 footer {
 	background-color: #CCC;
-	height: 40px;
+	height: 70px;
+	box-shadow: 0px 0px 10px 2px rgba(33,33,33,0.20);
 }
 .copyright {
-	padding: 13px 20px;
+	padding: 25px 20px;
 }
 
 /* CSS for media*/
-/*for mobile*/
-@media screen and (max-width: 480px) {
-	body {
-		background-color: #CCCCCC;
-	}
-}
+
 /*for both mobile and table*/
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 768px) {
 
 	#portfolio a {
 		text-decoration: none;
@@ -377,14 +373,51 @@ footer {
 		width: 90%;
 	}
 }
-    
-/*for tablet*/
-@media screen and (min-width: 481px) and (max-width: 768px){
-    body {
-        background-color: #454545;
-        /*background-color: #000000;*/
-    }
- 
-}
+   
 
+/*for mobile*/
+@media screen and (max-width: 480px) {
+
+	section .left_content {
+		position: absolute;
+		margin: 0;
+		margin-left: 20px;
+	    width: 100px;
+	    height: 50px;
+	    line-height: 80px;
+	    font-size: 1em;
+	    /*font-weight: normal;*/
+	    color: #8d8c8c;
+	    text-align: right;
+	    letter-spacing: 0px;
+	    padding-right: 10px;
+	}
+
+	section .right_content {
+		margin-top: -11px;
+		margin-left: 140px;
+		padding-top: 40px;
+		margin-bottom: 40px;
+	    padding-right: 20px;
+	    min-height: 164px;
+	}
+
+	#about .left_content h2 {
+		background:url('../images/nums/02.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+	#portfolio .left_content h2 {
+		background:url('../images/nums/01.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
+	#contact .left_content h2 {
+		background:url('../images/nums/03.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+}
 
