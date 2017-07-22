@@ -199,7 +199,7 @@ section .right_content {
 	position: relative;
 }*/
 #about .left_content h2 {
-	background:url('../images/nums/01.png');
+	background:url('../images/nums/02.png');
 	background-repeat: no-repeat;
 }
 /*#portfolio {
@@ -207,7 +207,7 @@ section .right_content {
 	position: relative;
 }*/
 #portfolio .left_content h2 {
-	background:url('../images/nums/02.png');
+	background:url('../images/nums/01.png');
 	background-repeat: no-repeat;
 }
 #portfolio a {
